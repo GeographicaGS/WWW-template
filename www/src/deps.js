@@ -1,4 +1,6 @@
-var deps = {}
+var deps = {};
+
+deps.templateFolder = "js/template";
 deps.JS = {
 	ThirdParty:{
 		src: [
@@ -39,8 +41,8 @@ deps.CSS = {
 	},
 	Core: {
 		src: [
-			"css/reset.css",
-			"css/base.css",
+			"css/lib/WWW-Styles/reset.css",
+			"css/lib/WWW-Styles/base.css",
 			"css/styles.css",
 			"css/home.css",
 		]
